@@ -1,20 +1,3 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body,
-#root {
-	width: 100%;
-	height: 100vh;
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-}
-
 .App {
 	background: linear-gradient(180deg, #121212 0%, #272764 100%);
 	line-height: 38px;

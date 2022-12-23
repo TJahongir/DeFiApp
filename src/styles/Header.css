@@ -1,0 +1,17 @@
+// Header
+
+.headerContainer {
+	display: flex;
+	width: 100%;
+	padding: 20px 40px;
+}
+
+.headerContainer .menu {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+}
+
+.menu .menu-links a {
+	margin: 12px;
+}

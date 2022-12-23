@@ -1,0 +1,128 @@
+.hero-section-container {
+	font-weight: 500;
+	line-height: 38px;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-betwen;
+	align-items: stretch;
+	align-self: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+	.hero-section-container {
+		flex-direction: column;
+		line-height: normal;
+	}
+
+	.hero-section-container .hero-info-wrapper .hero-info-text h1 {
+		font-size: 24px;
+		line-height: normal;
+	}
+
+	.search--container .search-input-wrapper {
+		margin: 5px 0;
+		padding: 3px;
+	}
+
+	.search-container .search-btn {
+		padding: 5px;
+	}
+
+	.hero-image-container img {
+		width: 100%;
+	}
+}
+
+.hero-section-container .hero-info-wrapper {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-basis: 47%;
+}
+
+.hero-section-container .hero-info-text h1 {
+	font-weight: 700;
+	font-size: 5rem;
+	line-height: 95px;
+	margin-bottom: 18px;
+}
+
+.hero-section-container .hero-info-text .hero-info-description {
+	margin-bottom: 10px;
+}
+
+.hero-image-container .hero-img {
+	width: 712px;
+	height: 729px;
+	object-fit: cover;
+	margin-top: 11px;
+	margin-bottom: 9px;
+}
+
+.search-container {
+	color: #9f9fc8;
+	background-color: #24245d;
+	border: 1px solid;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 36px 0;
+	line-height: 29px;
+}
+
+.search-container .search-input-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 1;
+	padding: 15px;
+}
+
+.search-container .search-input {
+	color: #9f9fc8;
+	height: 100%;
+	border: none;
+	background-color: transparent;
+	font-weight: 400;
+	line-height: 29px;
+	font-family: "Outfit", sans-serif;
+	width: 100%;
+	padding: 12px;
+	outline: none;
+	font-size: 1rem;
+}
+
+.search-input::placeholder {
+	color: #9f9fc8;
+}
+
+.search-container .search-btn {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 35%;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 30px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.social-links-container {
+	margin: 10px 0;
+}
+
+.social-links-container .social-links a {
+	margin: 0 10px;
+	color: #9f9fc8;
+}
+
+.social-links-container .social-links a:hover {
+	color: #fff;
+}

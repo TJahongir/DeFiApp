@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/Header.css";
 
+let headerContainer = {
+	display: "flex",
+	width: "100%",
+	padding: "20px 40px",
+};
+
 const Header = () => {
 	return (
-		<div className="header-container">
+		<div className="headerContainer" style={headerContainer}>
 			<div className="logo">TOKNSWAP</div>
 			<div className="menu">
 				<div className="menu-links">
@@ -15,7 +21,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div className="wallet-btn">
-				<button>Enter App</button>
+				<button className="primary">Enter App</button>
 			</div>
 		</div>
 	);
