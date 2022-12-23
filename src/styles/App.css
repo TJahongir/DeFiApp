@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body,
+#root {
+	width: 100%;
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.App {
+	background: linear-gradient(180deg, #121212 0%, #272764 100%);
+	line-height: 38px;
+	font-weight: 600;
+	font-size: 1.125rem;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
