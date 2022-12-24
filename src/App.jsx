@@ -9,8 +9,8 @@ function App() {
 		<div className="App">
 			<Header />
 			<HeroSection />
-			<FeatureOne />
 			<DailyStats />
+			<FeatureOne />
 		</div>
 	);
 }

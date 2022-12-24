@@ -3,7 +3,7 @@ import "../styles/DailyStats.css";
 
 const DailyStats = () => {
 	return (
-		<div className="daily-stats-container gradient-background">
+		<div className="daily-stats-container gradient-border">
 			<div className="metric-container">
 				<span className="metric-title">Tokn Swap Price</span>
 				<span className="metric-value">$0.11</span>
