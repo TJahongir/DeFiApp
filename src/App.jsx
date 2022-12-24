@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import FeatureOne from "./components/FeatureOne";
+import DailyStats from "./components/DailyStats";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<Header />
 			<HeroSection />
 			<FeatureOne />
+			<DailyStats />
 		</div>
 	);
 }
