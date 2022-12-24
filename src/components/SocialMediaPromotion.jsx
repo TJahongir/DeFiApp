@@ -13,7 +13,10 @@ const SocialMediaPromotion = () => {
 				<>
 					<div className="social-media-text">
 						<h2>
-							<span className="highlighted">Join</span> our community
+							<span className="highlighted" style={{ color: "#fff" }}>
+								Join
+							</span>{" "}
+							our community
 						</h2>
 					</div>
 					<div className="social-media-icons">

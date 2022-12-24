@@ -19,9 +19,9 @@ const DevSection = () => {
 						<button className="primary">
 							<span>Learn More</span>
 						</button>
-						<div className="secondary">
+						<button className="secondary">
 							<span>Get in Touch</span>
-						</div>
+						</button>
 					</div>
 				</div>
 				<div className="dev-image">
