@@ -1,0 +1,32 @@
+.dev-container {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	margin: 80px 0 0px 0;
+}
+
+.dev-container .dev-wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.dev-container .dev-wrapper .dev-text {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.dev-container .dev-wrapper .dev-image {
+	display: flex;
+	justify-content: center;
+}
+
+.dev-container .dev-wrapper .dev-image img {
+	max-height: 300px;
+}
+
+.dev-container .dev-wrapper .btn-wrapper button {
+	margin: 0 10px;
+}
