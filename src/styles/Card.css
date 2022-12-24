@@ -1,0 +1,40 @@
+.card-container {
+	margin-top: 4rem;
+	padding: 50px 20px;
+	background-color: #131330;
+	color: #9f9fc8;
+	background: linear-gradient(#131330 0 0) padding-box,
+		linear-gradient(to right, transparent, #30bddc) border-box;
+	border-radius: 10px;
+	background-origin: border-box;
+	background-clip: padding-box, border-box;
+	border: double 1px transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.card-container h1 {
+	color: #fff;
+	margin: 10px 0;
+}
+
+.features-list-container {
+	display: grid;
+	width: 75%;
+	grid-template-columns: 1fr 1fr;
+	gap: 2em;
+}
+
+.features-list-title {
+	margin-bottom: 10px;
+	text-align: center;
+	width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+	.features-list-container {
+		grid-template-columns: 1fr;
+	}
+}
