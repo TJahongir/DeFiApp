@@ -1,0 +1,12 @@
+.footer-container {
+	width: 100%;
+	display: flex;
+	background-color: #133131;
+}
+
+.footer-container .footer-row {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
